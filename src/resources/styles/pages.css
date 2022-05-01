@@ -1,0 +1,77 @@
+.main_container {
+    background-color: #e7f1f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 15px;
+}
+
+.header {
+    background-color: beige;
+    height: 30%;
+
+}
+
+.content {
+    background-color: dbf2f3;
+    height: 60%;
+}
+
+.title {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.content h4{   
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.shadow-square {
+    display: flex;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px;
+    border-style: hidden;
+    background-color: #eef5f5;
+    -webkit-box-shadow: 2px 0px 18px -4px #929292; 
+    box-shadow: 2px 0px 18px -4px #929292;
+}
+
+.two-columns {
+    background-color: #eef5f5;
+    padding: 20px;
+    align-content: center;
+    text-align: justify;
+    flex: 50%;
+}
+
+.two-columns p {
+    line-height: 20px;
+}
+
+.subTitle {
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0;
+    position: relative;   
+    text-transform: uppercase; 
+}
+
+.subTitle.p{
+    font-size: 14px;
+    line-height: 35px;
+    margin-right: 100px;  
+    
+}
+
+.footer {
+    background-color: blanchedalmond;
+    height: 20%;
+}
