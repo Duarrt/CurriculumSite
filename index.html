@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>RRibeiro DEV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/resources/styles/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/src/resources/styles/pages.css'>
+    <script src='/src/resources/scripts/main.js'></script>
+</head>
+<body>
+    <div class="main_container">
+        <div id="header" class="header">
+            <h2>Div header</h2>
+        </div>
+        <div id="content" class="content">
+            <div class="shadow-square">
+                <div class="two-columns">
+                    <span class="subTitle">Sobre</span><br><br>
+                    <p>Me chamo Ramon, estou cursando Análise e Desenvolvimento de Sistemas na Pontifícia Universidade Católica do Paraná e atualmente faço estágio em desenvolvimento de software.</p><br>
+                    <p>Sou uma pessoa proativa, comunicativa, e com grandes objetivos. Busco adquirir conhecimentos sólidos na área de programação, com foco, a princípio, ao back-end.</p>
+                </div>
+                <div class="two-columns">
+                    <span class="subTitle">Informações Básicas</span><br><br>
+                    <span class="subTitle p">Idade: </span>  20<br>
+                    <span class="subTitle p">Email: </span>  ramonduaribeiro@gmail.com<br>
+                    <span class="subTitle p ">Idioma: </span> Português (Nativo), Inglês (Intermediário)<br>
+                </div>
+                
+            </div>
+            <div class="title">
+                <h4>Habilidades Técnicas (PT-BR)</h4>
+            </div>
+            <div class="shadow-square">
+                Habilidades Técnicas: teste
+            </div>
+            <div class="title">
+                <h4>Experiência Professional</h4>
+            </div>
+            <div class="shadow-square">
+                Experiência Professional: teste
+            </div>
+            <div class="title">
+                <h4>Educação</h4>
+            </div>
+            <div class="shadow-square">
+                Educação: teste
+            </div>
+        </div>
+        <div id="footer" class="footer">
+            <h2>Div footer</h2>
+        </div>
+    </div>
+    <script>
+        function idade() {
+            var anoAtual = new Date().getUTCFullYear;
+            var idade = Math.abs(anoAtual-2002);
+            document.getElementById("idade").innerHTML=""+idade;
+        }
+    </script>
+</body>
+</html>
